@@ -1,0 +1,82 @@
+#root {
+    display: grid;
+    place-items: center;
+   justify-content: center;
+    width: 30em;
+}
+
+#root:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  }
+
+body {
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    margin-top: 1vh;
+  }
+
+.App {
+    display: grid;
+    text-align: center;
+    place-items: center;
+    width: 20em;
+    margin-top:2vh;
+}
+
+.UserDetail {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.App-link {
+    color: #61dafb;
+} */
+
+#joinFlakebookForm {
+    display: grid;
+  place-items: center;
+    width: 15em;
+    gap: 10px;
+    border: 1px solid #282c34;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#joinFlakebookForm input {
+    font-size:small;
+    padding: 4px;
+    border: 1px solid #282c34;
+    width: 100%;
+}
+
+#joinFlakebookForm label {
+    font-size:small;
+    font-weight: bold;
+}
+
+#joinFlakebookForm button,
+.goBack {
+    font-size:small;
+    font-weight: bold;
+    padding: 16px;
+    /* border: none; */
+    width: 15em;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+button {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+      width: 20em;
+}
+
+.errorMessage {
+    background-color: tomato;
+}
+
